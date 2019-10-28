@@ -5,6 +5,12 @@
 *
 * Adjusted and Customised by: Andrew Button
 */
+.mainLogo {
+  margin: 0;
+  padding: 0;
+  width: 140px;
+  height: 140px; }
+
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
  * Copyright 2011-2019 The Bootstrap Authors
