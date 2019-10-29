@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Passion+One|Raleway&display=swap);
 /*!
 * Admin Theme
 * Author: Andrew Wilson
@@ -5,11 +6,25 @@
 *
 * Adjusted and Customised by: Andrew Button
 */
+* {
+  font-family: 'Raleway', sans-serif; }
+
 .mainLogo {
   margin: 0;
   padding: 0;
-  width: 140px;
-  height: 140px; }
+  width: 300px;
+  height: 300px; }
+
+.brand {
+  font-family: 'Passion One', cursive;
+  font-size: 1.8rem;
+  color: #3b3b3b; }
+
+.shadowing {
+  box-shadow: 0 5px 3px -3px rgba(207, 204, 204, 0.8); }
+
+.nav-link {
+  text-transform: uppercase; }
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
