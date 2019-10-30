@@ -3,10 +3,12 @@
 }
 
 .mainLogo {
-  margin: 0;
-  padding: 0;
-  width: 920px;
-  height: 920px;
+  width: 1200px;
+  height: 1200px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -45%);
 }
 
 .brand {
@@ -23,4 +25,8 @@
 
 .nav-link {
   text-transform: uppercase;
+}
+
+.nav-item :hover {
+  font-size: 1.16rem;
 }
