@@ -1,1 +1,1 @@
-Business Website (Customised with MDBootstrap)
+Business Website
