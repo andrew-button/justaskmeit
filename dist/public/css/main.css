@@ -197,7 +197,7 @@ p {
 /* Header Showcase */
 
 #showcase {
-   min-height: 100vh;
+   min-height: 73vh;
    color: #3b3b3b;
 }
 
@@ -207,8 +207,8 @@ p {
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
-   width: 100%;
-   height: 100vh;
+   max-width: 100%;
+   height: 73vh;
    z-index: -1;
    opacity: 0.3;
 }
@@ -316,15 +316,15 @@ p {
     padding-bottom: 0;
   }
 
-  #showcase h1 {
+/*   #showcase h1 {
     padding-top: 250px;
     padding-bottom: 0;
     font-size: 3.75rem;
- }
+ } */
 
-  .content-wrap {
+/*   .content-wrap {
     margin-top: 2.5rem;
-  }
+  } */
   
   #section-b .card-title {
     font-size: 2rem;
@@ -354,5 +354,17 @@ p {
 
   #section-b li {
     width: 33%;
+  }
+
+  /* Suspension of Operations */
+
+  .content-wrap {
+    margin-bottom: -2rem
+  }
+
+  .content-wrap img {
+    display: inline-block;
+    height:300px;
+    width: 320px;
   }
 }
