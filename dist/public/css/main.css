@@ -203,7 +203,7 @@ p {
 
 #showcase .bg-image {
    position: absolute;
-   background: url('/public/images/header_bg.jpg');
+   background: url('/dist/public/images/header_bg.jpg');
    background-repeat: no-repeat;
    background-position: center;
    background-size: cover;
